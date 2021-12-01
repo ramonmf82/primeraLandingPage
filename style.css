@@ -1,0 +1,32 @@
+body{
+    font-family: 'Noto Serif', serif;
+    background-color: white;
+}
+:root{
+    --main-color: black;
+    --accent-color: blue;
+}
+.text-main{
+    color: var(--main-color);
+}
+.text-accent{
+    color: var(--accent-color);
+}
+.my-nav{
+    border-bottom: 2px solid var(--accent-color);
+}
+.my-head{
+    background-image: url('./media/bg-head.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.my-border-card{
+    border-bottom: 2px solid var(--accent-color) !important;
+}
+.faro{
+    background-image: url('./media/faro.jpg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;   
+}
